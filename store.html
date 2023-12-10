@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nick's Clothing Emporium</title>
+    <link rel="stylesheet" href="store.css">
+  </head>
+  <body>
+    <aside id="orders-cart">
+      <button id="cart">View Cart</button>
+      <button id="orders">My Orders</button>
+    </aside>
+    <main>
+        <h1 id="logo">Nick's Clothing Emporium</h1> 
+        <div id="product-card">
+            <div id="default-message">Click on an item from below to view product details.</div>
+            <div id="product-wrap" class="hide">
+              <div id="product-image">
+                <img src="assets/img/jacket-1-aviationbrown.png" alt="Bomber jacket in aviation brown color" />
+              </div>
+              <div id="product-details">
+                <span id="name"><span class="label">Product name: </span><span class="data"></span></span>
+                <span id="description"><span class="label">Description: </span><span class="data"></span></span>
+                <span id="price"><span class="label">Price: $</span><span class="data"></span></span>
+                <span id="colors"><span class="label">Color options: </span><span class="data"></span></span>
+                <span id="size"><span class="label">Sizes: </span><span class="data"></span></span>
+                <span id="upc"><span class="label">UPC: </span><span class="data"></span></span>
+                <button id="add-cart">Add to Cart</button>
+              </div>
+            </div>
+        </div>
+        <div id="product-slider">
+        </div>
+        <div id="autoscroll">
+          <button id="slideshowBtn">Start Slideshow &#8227;</button>
+        </div>
+    </main>
+	<script src="store.js"></script>
+  </body>
+</html>
